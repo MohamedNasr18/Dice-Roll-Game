@@ -1,0 +1,93 @@
+* {
+    background-color: black;
+    color: #707070;
+}
+body span {
+    font-size: 52px;
+}
+body button {
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 21px;
+    transition: background-color 0.2s ease, color 0.3s ease;
+}
+body button:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.roll {
+    background-color: #28a745;
+}
+.roll:hover {
+    background-color: #218838;
+}
+.hold {
+    background-color: #dc3545;
+}
+.hold:hover {
+    background-color: #c82333;
+}
+.newGame {
+    background-color: darkcyan;
+}
+.newGame:hover {
+    background-color: #066e6e;
+}
+.container {
+    width: 100%;
+}
+body h2 {
+    margin-bottom: 11px;
+    font-size: 44px;
+    font-weight: bold;
+}
+.active-player {
+    background-color: #201f1f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    padding: 80px;
+    transition: background-color 0.4s ease, color 0.3s ease;
+}
+.active-player h2,
+.active-player span,
+.active-player div,
+.active-player h4 {
+    color: #fff;
+    background-color: transparent;
+}
+.controling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.dice {
+    width: 95px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    font-size: 2rem;
+    border-radius: 7px;
+    border: 2px solid #000;
+    
+    visibility: hidden;
+}
+.dice img{
+    height: inherit;
+    border-radius: 3px;
+}

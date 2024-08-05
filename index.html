@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="row align-items-center text-center">
+          <div class="player1-container col-4 mt-5">
+            <h2>Player 1</h2>
+            <span class="P1-roll">0</span>
+            <div class="end mt-5">
+              <h4>Total Score</h4>
+              <span class="p1-endScore">0</span>
+            </div>
+          </div>
+          <div class="controling col-4 mt-5">
+            <button class="newGame mb-5">New Game</button>
+
+            <div class="dice mb-5"></div>
+
+            <button class="roll mb-3">🎲 Roll Dice</button>
+
+            <button class="hold">⏸️ Hold</button>
+          </div>
+
+          <div class="player2-container col-4 mt-5">
+            <h2>Player 2</h2>
+            <span class="P2-roll">0</span>
+            <div class="end mt-5">
+              <h4>Total Score</h4>
+              <span class="p2-endScore">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
